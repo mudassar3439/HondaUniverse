@@ -1,0 +1,230 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Mulish:wght@200&display=swap');
+*{
+  font-family: 'Cuprum', sans-serif;
+  font-family: 'Taviraj', serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a.active{
+  color:blue !important;
+}
+a:hover{
+  color: blue !important;
+  border-bottom:1px solid orange;
+}
+                                            /* Main Site Starting */
+
+                                             /* Home Page  */
+/* sliding box  */
+.box{
+  border: 1px solid #5914da94;
+  border-radius:5px;
+  margin-top: 10px;
+}
+
+/* sliding img */
+.MHSimg{
+  height:200px !important;
+  width:100% !important;
+}
+
+
+                                                 /* About Page */
+                            
+/* paragraph styling*/
+
+p{
+    font-size: 18px;
+  }
+  .para-box{
+    width: 100%;
+    padding: 0px 17px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:#e4e4e454;
+   
+  }
+
+  /* heading styling */
+
+  .heading{
+    text-align: center;
+    color:rgb(20, 19, 19);
+    font-size: 3.25rem;
+    font-weight: normal;
+  }
+
+  /* image styling */
+
+  .img{
+   text-align: center !important;
+  }
+                    /* contant box styling {{{{*/
+  /* contact main box */
+  .contact-mbox{
+    width: 100%;
+    border: 2px solid #e4e4e4;
+    background-color: #e4e4e4;
+   
+  }
+   /* second contact box */
+  .contact-sbox{
+    width:100%;
+    height: 502px;
+    margin: 6px;
+    padding: 5px;
+    background-color: white;
+}
+  
+   /* First sub box  */
+  .contact-ssbox1{
+    width:100%;
+    height:25px;
+    margin-top:20px;
+    border:none;
+    background-color: #e4e4e4;
+  }
+  /* second sub box */
+  .contact-ssbox2{
+    width:100%;
+    height:25px;
+    margin-top: 97px;
+    border:none;
+    background-color: #e4e4e4;
+  }
+  /* Third sub box */
+  .contact-ssbox3{
+    width:100%;
+    height:25px;
+    margin-top: 97px;
+    border:none;
+    background-color: #e4e4e4;
+  }
+  /* Forth sub box */
+  .contact-ssbox4{
+    width:100%;
+    height: 25px;
+    justify-content: center;
+    margin-top: 97px;
+    font-size: 15px;
+    border:none;
+    background-color: #e4e4e4;
+  }
+  /* logo image of sub box */
+  .contact-ssbox2 img,.contact-ssbox3 img ,.contact-ssbox4 img ,.contact-ssbox1 img{
+    width: 31px;
+    height: 26px;
+    
+  } 
+                 /* contant box styling }}}}*/
+     
+ /* buttons */
+.btn-1{
+  width:100% !important;
+  height:40px !important;
+}
+.btn-2{
+  width:100% !important;
+  height:40px !important;
+}
+.btn-3{
+  width:100% !important;
+  height:40px !important;
+  margin-left:-10px !important;
+}
+.btn-4{
+  width:100% !important;
+  height:40px !important;
+}
+.btn-5{
+  width:100% !important;
+  height:40px !important;
+}
+                                            /* Log-In Page */
+.log{
+    background-color: rgba(0, 0, 0, 0.69);
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 35px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 300px;
+    left: 50%;
+  }
+  input{
+    width: 100%;
+    margin-bottom:20px;
+  }
+  
+  .log input[type="email"],input[type="password"]{
+  border:none;
+  border-bottom: 1px solid white;
+  color:white;
+  background: transparent;
+  outline: none;
+  height: 35px;
+  }
+  /* Logo image */
+  .log img{
+    width: 102px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 576px) {
+    .log {
+      max-width: 90%;
+      padding: 15px;
+    }
+    .log img {
+      width: 80px;
+      height: 60px;
+    }
+  }
+
+  .text-left{
+  text-align: left !important;
+} 
+                                   
+                                            
+                                             /* Main Site Ending */
+
+
+                                             /* Subsites Starting */
+
+
+                                                  /* Home Page */
+
+  /* img sliding box */
+  .box{
+    border: 1px solid #5914da94;
+    border-radius:5px;
+    margin-top: 10px;
+}
+/*  sliding box  img*/
+   .SHSimg{
+    height:255px !important;
+    width: 100% !important;
+   }
+                                        /* Images Page */
+               /* Null */
+
+
+
+
+
+                /* Null */
+
+                                         /* Videos Page */
+.video{
+    width:100% !important;
+    }
+
+                                           /* About page  */
+.rounded{
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    }
+                                        /* Subsites Ending */
